@@ -451,7 +451,7 @@ var App = {
 				}
 			});
 		}
-	    App.socket = io.connect("http://binb.nodejitsu.com/", {'reconnect':false});
+	    App.socket = io.connect("http://corrigan.dyndns-at-home.com", {'reconnect':false});
 		App.socket.on("connect", function() {
 			$("#player").jPlayer({
 				ready: function() {
